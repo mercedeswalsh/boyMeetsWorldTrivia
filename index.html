@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <!-- space for google fonts file -->
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <!-- reset file -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- materialize file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- additional style file -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <header>
+        <!-- ****include header image -->
+        <img src="./assets/images/headerImg.jpg" alt="Boy Meets World Trivia Header">
+    </header>
+
+    <!-- question and answer container -->
+    <div class="container">
+
+            <!-- start button -->
+            <a class="waves-effect waves-light btn-large" id="startBtn">Start!</a>
+
+            <!-- questions page -->
+            <div id="timeLeft"></div>
+            <div id="currentQuestion"></div>
+            <div class="question"></div>
+            <div class="answerChoices"></div>
+
+            <!-- answers page -->
+            <div id="msg"></div>
+            <div id="correctedAnswer"></div>
+            <div class="gif"></div>
+
+            <!-- score -->
+            <div id="lastMsg"></div>
+            <div id="correctAnswers"></div>
+            <div id="wrongAnswers"></div>
+            <div id="notAnswered"></div>
+            <div id="startOverBtn"></div>
+    <!-- end container div -->
+    </div>
+
+    <!-- jquery script -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- materialize script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- app script -->
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
