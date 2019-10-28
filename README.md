@@ -28,6 +28,6 @@
 
 **My role in app development**
 
-- Developer of LIRI through Coding Bootcamp at UCI
+- Developer of boyMeetsWorldTrivia through Coding Bootcamp at UCI
 
 ---
